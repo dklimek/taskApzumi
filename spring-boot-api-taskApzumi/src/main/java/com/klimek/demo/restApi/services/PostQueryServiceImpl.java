@@ -25,6 +25,11 @@ public class PostQueryServiceImpl implements PostQueryService {
     @Autowired
     private ArchivedPostRepository archivedPostRepository;
 
+    PostQueryServiceImpl(PostRepository postRepository, ArchivedPostRepository archivedPostRepository){
+        this.postRepository = postRepository;
+        this.archivedPostRepository = archivedPostRepository;
+    }
+
     @Override
     public PostQueryDTO getPost(Long id) {
         if (postRepository.findById(id).isPresent()){
@@ -101,7 +106,6 @@ public class PostQueryServiceImpl implements PostQueryService {
             Post addedPost = postRepository.save(addPost);
             return new PostQueryDTO(addedPost.getId(), addedPost.getUserId(), addedPost.getTitle(), addedPost.getBody());
         } else {
-            System.out.println(!postRepository.findById(id).isPresent());
             throw new PostExistsWithThisIdException();
         }
 
@@ -156,8 +160,6 @@ public class PostQueryServiceImpl implements PostQueryService {
 
     @Scheduled(cron = "0 0 0 * * *", zone = "CET")
     public void updateDatabase() {
-        System.out.println("databaseupted");
-        System.out.println(new Date().toString());
         new ScheduledTasks().updateDatabase(postRepository, archivedPostRepository);
     }
 }

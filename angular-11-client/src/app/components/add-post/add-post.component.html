@@ -1,0 +1,46 @@
+<div>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="form-group">
+        <label for="userId">User Id</label>
+        <input
+          type="number"
+          class="form-control"
+          id="userId"
+          required
+          [(ngModel)]="post.userId"
+          name="userId"
+        />
+      </div>
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          required
+          [(ngModel)]="post.title"
+          name="title"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="body">Body</label>
+        <input
+          class="form-control"
+          id="body"
+          required
+          [(ngModel)]="post.body"
+          name="body"
+        />
+      </div>
+
+      <button (click)="savePost()" class="btn btn-success">Submit</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Post was submitted successfully!</h4>
+      <button class="btn btn-success" (click)="newPost()">Add</button>
+    </div>
+  </div>
+</div>

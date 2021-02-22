@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="656fe7f0-eb43-4b88-b680-335404fad97a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1of1S9w40YKWXJa93IhdF4rYRLx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-api-taskApzumi" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KomputerMisia\Desktop\Spring\taskApzumi\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.klimek.demo.restApi.repositories" />
+      <recent name="com.klimek.demo.restApi.entities" />
+      <recent name="com.klimek.demo.restApi.exception" />
+      <recent name="com.klimek.demo.restApi.dto" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.klimek.demo.restApi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PostControllerTest.should_delete_post">
+    <configuration name="PostControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskApzumi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klimek.demo.restApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klimek.demo.restApi" />
+      <option name="MAIN_CLASS_NAME" value="com.klimek.demo.restApi.PostControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.createPostAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskApzumi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klimek.demo.restApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klimek.demo.restApi" />
+      <option name="MAIN_CLASS_NAME" value="com.klimek.demo.restApi.PostControllerTest" />
+      <option name="METHOD_NAME" value="createPostAPI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.should_delete_post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskApzumi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klimek.demo.restApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klimek.demo.restApi" />
+      <option name="MAIN_CLASS_NAME" value="com.klimek.demo.restApi.PostControllerTest" />
+      <option name="METHOD_NAME" value="should_delete_post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.should_get_posts_without_userId_by_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskApzumi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klimek.demo.restApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klimek.demo.restApi" />
+      <option name="MAIN_CLASS_NAME" value="com.klimek.demo.restApi.PostControllerTest" />
+      <option name="METHOD_NAME" value="should_get_posts_without_userId_by_title" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.should_get_posts_without_userid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskApzumi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.klimek.demo.restApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.klimek.demo.restApi" />
+      <option name="MAIN_CLASS_NAME" value="com.klimek.demo.restApi.PostControllerTest" />
+      <option name="METHOD_NAME" value="should_get_posts_without_userid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostControllerTest.should_delete_post" />
+        <item itemvalue="JUnit.PostControllerTest.should_get_posts_without_userId_by_title" />
+        <item itemvalue="JUnit.PostControllerTest.should_get_posts_without_userid" />
+        <item itemvalue="JUnit.PostControllerTest" />
+        <item itemvalue="JUnit.PostControllerTest.createPostAPI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="656fe7f0-eb43-4b88-b680-335404fad97a" name="Default Changelist" comment="" />
+      <created>1613662827671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613662827671</updated>
+    </task>
+    <task id="LOCAL-00001" summary="spring boot api created based on task from Apzumi">
+      <created>1613954332599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613954332599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="spring boot api created based on task from Apzumi" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot api created based on task from Apzumi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613663096486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613663096485" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1613914101242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613914101242" />
+    <state x="154" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613663747275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="154" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613663747275" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613832209290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613832209290" />
+    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1613954332095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954332095" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613954350013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954350013" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1613954113555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954113555" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1613948557541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613948557541" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613954340824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613954340824" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1613920153385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613920153385" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1613842265673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1613842265673" />
+  </component>
+</project>

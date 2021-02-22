@@ -18,6 +18,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(value = "/api/post")
 public class PostController {
 
@@ -105,9 +106,9 @@ public class PostController {
 
     @GetMapping("/downloaddatatodatabase")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Object> updateDataInDatabase() throws IOException {
+    public ResponseEntity<PostQueryDTO> updateDataInDatabase() throws IOException {
         postQueryService.updateDatabase();
-        return new ResponseEntity<>("Database updated", HttpStatus.OK);
+        return new ResponseEntity<>(null, HttpStatus.OK);
     }
 
 

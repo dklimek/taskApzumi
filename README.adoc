@@ -1,0 +1,5 @@
+modules:
+
+ - `spring-boot-api-taskApzumi` : The REST API
+ - `angular-11-client` : A Typescript Angular UI
+
