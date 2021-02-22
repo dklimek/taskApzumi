@@ -37,7 +37,7 @@ export class PostService {
     return this.http.get<Post[]>(`${baseUrl}/rodo/ContainingTittle/${title}`);
   }
 
-  updateDatabase(id: any): Observable<Post> {
+  updateDatabase(): Observable<Post> {
     return this.http.get(`${baseUrl}/downloaddatatodatabase`);
   }
 }
