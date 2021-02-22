@@ -1,6 +1,9 @@
 # PostWebUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.11.0.
+## Npm install
+
+Run `npm install` to install the required npm files, if you don't have one.
 
 ## Development server
 
